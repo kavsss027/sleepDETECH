@@ -1,0 +1,40 @@
+# =============================================================
+# SleepDETECH � .gitignore
+# =============================================================
+
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+
+# --- dlib Model File (too large for GitHub ~100MB) ---
+*.dat
+shape_predictor_68_face_landmarks.dat
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# --- Agent & IDE Tool Directories ---
+.antigravitycli/
+.vscode/
+.idea/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Build & Distribution ---
+dist/
+build/
+*.egg-info/
+
+# --- Logs & Temp Files ---
+*.log
+*.tmp
+
+docs
