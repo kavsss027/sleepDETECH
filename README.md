@@ -118,17 +118,7 @@ sleepDETECH/
 ├── drowsiness_detector.py                   ← Single application file (entire system)
 ├── shape_predictor_68_face_landmarks.dat    ← Pre-trained dlib model (downloaded separately)
 ├── requirements.txt                         ← Pinned library versions
-└── docs/                                    ← Full project specification documents
-    ├── PROJECT_OVERVIEW.md
-    ├── TECHSTACK.md
-    ├── ARCHITECTURE.md
-    ├── DETECTION_LOGIC.md
-    ├── PARAMETERS.md
-    ├── ANNOTATION_SPEC.md
-    ├── EDGE_CASES.md
-    ├── DEVELOPMENT_PHASES.md
-    ├── PHASE_TEST_RUNNER.md
-    └── PROJECT_STATUS.md
+└── README.md                                ← You are here
 ```
 
 ---
